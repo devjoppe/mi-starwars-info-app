@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700&display=swap');
+
+body {
+    background: #020a23;
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
+li {
+    text-transform: capitalize;
+}
+
+form {
+    display: flex;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #152044;
+}
+
+h1, h2, h3 {
+    color: #e8e8e8;
+}
+
+h3 {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #152044;
+}
+
+a {
+    text-decoration: none;
+    color: #f45957;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.sw-header img {
+    width: 140px;
+}
+
+.sw-header {
+    margin-top: 32px;
+    padding-bottom: 32px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #152044;
+}
+
+.sw-navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 32px;
+    border-bottom: 1px solid #152044;
+}
+
+.sw-container {
+    background-color: #020a23;
+}
+
+.sw-card-extra {
+    font-weight: bold;
+}
+
+.sw-breadcrumb {
+    position: sticky;
+    top: 0;
+    border-radius: 4px;
+    background-color: #041449;
+    padding: 16px;
+    margin-bottom: 16px;
+    z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+.sw-breadcrumb span {
+    color: #f45957;
+}
+
+.sw-start-box {
+    display: flex;
+    padding: 32px;
+    border-radius: 4px;
+    height: 300px;
+    color: white;
+    font-family: Teko, sans-serif;
+    font-size: 48px;
+    background-size: cover;
+}
+
+.sw-start-box:hover {
+    border: 1px solid #f45957;
+}
+
+.sw-start-box span {
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.7),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.sw-start a:hover {
+    text-decoration: none;
+}
+
+.sw-list-items {
+    margin-bottom: 92px;
+}
+
+.sw-list-results {
+    color: white;
+    padding-bottom: 16px;
+}
+
+.sw-pagination {
+    position: fixed;
+    display: flex;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background: #020a23;
+    padding: 16px 16px;
+    border-top: 1px solid #152044;
+    justify-content: center;
+}
+
+.sw-navigation .sw-nav-item {
+    display: flex;
+    justify-content: center;
+    background: none;
+    font-size: 14px;
+    color: #dfdfdf;
+    font-weight: bold;
+    padding: 8px 12px;
+    width: 100px;
+}
+
+.sw-navigation a.active {
+    color: #1a4842;
+    border-radius: 4px;
+}
+
+.sw-navigation a.People.active {
+    background-color: #57f4d7;
+}
+.sw-navigation a.Planets.active {
+    background-color: #57dcf4;
+}
+.sw-navigation a.Starships.active {
+    background-color: #d495ff;
+}
+.sw-navigation a.Species.active {
+    background-color: #c8ff95;
+}
+.sw-navigation a.Vehicles.active {
+    background-color: #ffba95;
+}
+.sw-navigation a.Films.active {
+    background-color: #ff7d7d;
+}
+
+.sw-go-back {
+    margin: 24px 0 16px 0;
+}
+
+.sw-go-to {
+    position: fixed;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    padding: 16px 0;
+    background: #020a23;
+    border-top: 1px solid #152044;
+}
+
+.sw-go-to-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sw-go-to-totals {
+    display: flex;
+    align-items: center;
+    color: #f45957;
+}
+
+.sw-detail-main-info {
+    margin-bottom: 32px;
+    padding-top: 32px;
+    border-top: 1px solid #152044;
+}
+
+.sw-detail-infoboxes {
+    margin-bottom: 92px;
+}
+
+.sw-detail-infobox-data {
+    border-radius: 4px;
+    background-color: rgba(6, 21, 71, 0.35);
+    height: 100%;
+    padding: 24px;
+}
+
+.sw-info-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.sw-info-box a {
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.sw-detail-list {
+    font-size: 1rem;
+    color: white;
+    margin-top: 16px;
+}
+
+.sw-detail-list-item {
+    padding: 8px 0;
+    border-bottom: 1px solid #152044;
+}
+
+.sw-detail-list-item:last-child {
+    border-bottom: none;
+}

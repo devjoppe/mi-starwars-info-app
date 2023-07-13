@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Planets",
+    "url": "/planets",
+    "bg": "/assets/images/planets.jpg"
+  },
+  {
+    "id": 2,
+    "title": "People",
+    "url": "/people",
+    "bg": "/assets/images/people.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Starships",
+    "url": "/starships",
+    "bg": "/assets/images/starships.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Species",
+    "url": "/species",
+    "bg": "/assets/images/species.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Vehicles",
+    "url": "/vehicles",
+    "bg": "/assets/images/vehicles.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Films",
+    "url": "/films",
+    "bg": "/assets/images/films.jpg"
+  }
+]
